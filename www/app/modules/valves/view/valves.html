@@ -1,0 +1,22 @@
+<ion-view view-title="Manage Valves">
+    <ion-content >
+
+      <div class="row header">
+          <div class="col">Type</div>
+          <div class="col">Id</div>
+          <div class="col">Info</div>
+        </div>
+        <div class="row" ng-repeat="item in data">
+            <div class="col">{{item.doc.typeId}}
+            </div>
+            <div class="col">{{item.doc.deviceId}}
+            </div>
+            <div class="col">{{item.doc.deviceInfo.model}}
+            </div>
+        </div>
+
+
+
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Smart Water</title>
+    <link href="https://fonts.googleapis.com/css?family=RobotoDraft%3A400%2C500%2C700%2C400italic" rel="stylesheet">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="lib/ion-md-input/css/ion-md-input.min.css" rel="stylesheet">
+    <link href="lib/ionic-material/dist/ionic.material.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic-material/dist/ionic.material.min.js"></script>
+    <script src="lib/ion-md-input/js/ion-md-input.min.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ng-cordova/ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3" type="text/javascript"></script>
+
+    <!-- your app's js -->
+    <script src="app/app.js"></script>
+    <!-- controllers js -->
+    <script src="app/modules/common/controller/common.js"></script>
+    <script src="app/modules/home/controller/home.js"></script>
+    <script src="app/modules/login/controller/login.js"></script>
+    <script src="app/modules/valves/controller/valves.js"></script>
+    <script src="app/modules/map/controller/map.js"></script>
+    <script src="app/modules/about/controller/about.js"></script>
+
+    <!-- services js -->
+    <script src="app/services/security.js"></script>
+    <script src="app/services/DataSrvc.js"></script>
+
+</head>
+<body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+    <div id="modal" class=""></div>
+</body>
+</html>

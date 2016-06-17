@@ -1,0 +1,17 @@
+<ion-view view-title="Login" align-title="left" hide-nav-bar="true">
+    <ion-content class="login-bg blue">
+        <div class="hero no-header flat">
+            <div class="content">
+              <div class="avatar " style="background-image: url('img/logo.png');"></div>
+                <h3><a class="light">Smart Water</a></h3>
+            </div>
+        </div>
+        <div class="list">
+            <ion-md-input ng-model="credentials.username" placeholder="Username" highlight-color="balanced" type="text"></ion-md-input>
+            <ion-md-input ng-model="credentials.password" placeholder="Password" highlight-color="energized" type="password"></ion-md-input>
+        </div>
+        <div class="padding">
+            <button ng-click="login()" class="button button-full button ink">Login</button>
+        </div>
+    </ion-content>
+</ion-view>
